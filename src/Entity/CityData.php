@@ -32,7 +32,7 @@ class CityData extends ContentEntityBase implements ContentEntityInterface {
       ->setLabel(t('ID'))
       ->setDescription(t('The ID of the CityData entity.'))
       ->setRequired(TRUE)
-      ->setSetting('unsigned', TRUE);
+      ->setSetting('unsigned', TRUE)
       ->setSetting('max_length', 5)
       ->setTranslatable(TRUE)
       ->setDisplayOptions('form', array(
